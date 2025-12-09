@@ -24,3 +24,69 @@
 2025-12-09 02:03:22.840 [Thread-127] INFO  [] com.acellere.corona.cmx.messaging.zmq.mt.ZmqListenerMT - Started listener: MT: [scan-status@tcp://localhost:54803]
 2025-12-09 02:03:22.842 [Thread-130] INFO  [scan-status] com.acellere.corona.cmx.messaging.zmq.mt.ServerWorker - ServerWorker [name=scan-status]: Server worker started
 2025-12-09 02:03:24.982 [Thread-127] INFO  [] com.acellere.corona.cmx.messaging.zmq.ZmqRequestor - Connected to: [scan-reqt-plugin@tcp://localhost:58337]
+
+2025-12-09 02:15:21.475 [EmboldAnalysis1] INFO  [] com.acellere.corona.cmx.msg.control.Sources - Base Dir C:/Users/sebat/OneDrive/Escritorio/Login_Token/
+2025-12-09 02:15:21.475 [EmboldAnalysis1] INFO  [] com.acellere.corona.javaparsercore.cfg.JpParams - Internal codechecker gamma_java is enabled
+2025-12-09 02:15:21.479 [EmboldAnalysis1] INFO  [] com.acellere.corona.javaparsercore.jp.parserdb.init.DbContext - Initialized data store
+2025-12-09 02:15:21.493 [EmboldAnalysis1] INFO  [] com.acellere.corona.javaparsercore.jp.parserdb.init.DbContext - Data store setup complete
+2025-12-09 02:15:21.513 [EmboldAnalysis1] INFO  [] com.acellere.corona.javaparsercore.jp.parserdb.build.IncrementalHelper - Adding in incrFileMap : C:/Users/sebat/OneDrive/Escritorio/Login_Token/cmx.log
+2025-12-09 02:15:21.513 [EmboldAnalysis1] INFO  [] com.acellere.corona.javacodechecker.CustomCheckHandler - Gamma custom checks for java is enabled. Loading checkers.xml
+2025-12-09 02:15:21.523 [EmboldAnalysis1] INFO  [] com.acellere.corona.javacodechecker.Executor - Begin fast pass: com.acellere.corona.javacodechecker.EmboldScanFile@43954149 files
+2025-12-09 02:15:21.529 [EmboldAnalysis1] INFO  [] com.acellere.corona.commons.logging.ProgressPrinter - ..1
+2025-12-09 02:15:21.529 [EmboldAnalysis1] INFO  [] com.acellere.corona.commons.logging.ProgressPrinter - 
+
+2025-12-09 02:15:21.529 [EmboldAnalysis1] INFO  [] com.acellere.corona.javaparsercore.jp.parserdb.build.H2ParserDbBuilder - Begin resolve relations
+2025-12-09 02:15:21.529 [EmboldAnalysis1] INFO  [] com.acellere.corona.javaparsercore.jp.parserdb.build.H2ParserDbBuilder - insertResolvedRelation Batch Executed
+2025-12-09 02:15:21.529 [EmboldAnalysis1] INFO  [] com.acellere.corona.javaparsercore.jp.parserdb.build.H2ParserDbBuilder - End resolve relations
+2025-12-09 02:15:21.529 [EmboldAnalysis1] INFO  [] com.acellere.corona.javaparsercore.jp.parserdb.build.H2ParserDbBuilder - Begin resolve param relations
+2025-12-09 02:15:21.533 [EmboldAnalysis1] INFO  [] com.acellere.corona.javaparsercore.jp.parserdb.build.H2ParserDbBuilder - insertResolvedRelation Batch Executed
+2025-12-09 02:15:21.533 [EmboldAnalysis1] INFO  [] com.acellere.corona.javaparsercore.jp.parserdb.build.H2ParserDbBuilder - End resolve relations
+2025-12-09 02:15:21.533 [EmboldAnalysis1] INFO  [] com.acellere.corona.javacodechecker.Executor - End fast pass
+2025-12-09 02:15:21.533 [EmboldAnalysis1] INFO  [] com.acellere.corona.javacodechecker.Executor - Begin detailed pass: C:/Users/sebat/OneDrive/Escritorio/Login_Token/cmx.log
+2025-12-09 02:15:21.533 [EmboldAnalysis1] INFO  [] com.acellere.corona.javacodechecker.Executor - Starting detailed pass with 2 threads
+2025-12-09 02:15:21.534 [EmboldAnalysis1] INFO  [] com.acellere.corona.commons.logging.ProgressPrinter - ..1
+2025-12-09 02:15:21.534 [EmboldAnalysis1] INFO  [] com.acellere.corona.commons.logging.ProgressPrinter - 
+
+2025-12-09 02:15:21.534 [EmboldAnalysis1] INFO  [] com.acellere.corona.javacodechecker.Executor - End detailed pass
+2025-12-09 02:15:21.534 [EmboldAnalysis1] INFO  [] com.acellere.corona.javacodechecker.Executor - Generating gamma_java report at location : C:\Users\sebat\AppData\Local\JetBrains\IdeaIC2025.1\tmp\embold\embold_data\Login_TokenUN387FD2BVSWV753X3C5RJ9WR\gamma_java\DHCRRH6LQ9VNHYWOF9FPZDSEM\gamma_java.csv
+2025-12-09 02:15:21.534 [EmboldAnalysis1] INFO  [] com.acellere.corona.javaparsercore.jp.parserdb.query.H2ParserDbQueryInterface - Closed TypeDb
+2025-12-09 02:15:21.535 [EmboldAnalysis1] INFO  [] com.acellere.corona.javaparsercore.jp.parserdb.build.H2ParserDbBuilder - Shutdown model database
+2025-12-09 02:15:21.535 [EmboldAnalysis1] INFO  [] com.acellere.corona.commons.db.DbUtils - Connection already closed
+2025-12-09 02:15:21.543 [EmboldAnalysis1] INFO  [] com.embold.intellij.scan.PMDMain - corona_home = C:/Users/sebat/AppData/Roaming/JetBrains/IdeaIC2025.1/plugins/Embold/
+2025-12-09 02:15:21.543 [EmboldAnalysis1] INFO  [] com.acellere.corona.cmx.msg.control.Sources - Base Dir C:/Users/sebat/OneDrive/Escritorio/Login_Token/
+2025-12-09 02:15:21.549 [EmboldAnalysis1] INFO  [] com.acellere.corona.auxmod.frontend.axfcmn.opt.AuxModParams - Data directory identified for module is C:/Users/sebat/AppData/Local/JetBrains/IdeaIC2025.1/tmp/embold/embold_data/Login_TokenPG21Q841ER6HEEW636B06DBX2/pmd/6AOWTP1VYM62LCD3EIITMZN33
+2025-12-09 02:15:21.549 [EmboldAnalysis1] INFO  [] com.embold.intellij.scan.PMDMain - RUnning pmd for language : JAVA
+2025-12-09 02:15:21.561 [EmboldAnalysis1] INFO  [] com.acellere.corona.cmx.messaging.zmq.ZmqRequestor - Connected to: [scan-status@tcp://localhost:6666]
+2025-12-09 02:15:21.572 [EmboldAnalysis1] INFO  [] com.acellere.corona.cmx.messaging.zmq.ZmqRequestor - Connected to: [analyser-data@tcp://localhost:7777]
+2025-12-09 02:15:21.581 [EmboldAnalysis1] INFO  [] com.acellere.corona.auxmod.frontend.axfcmn.AuxModCfg - Loaded properties from: C:/Users/sebat/AppData/Roaming/JetBrains/IdeaIC2025.1/plugins/Embold/\emboldBackend/\auxmod\pmd\config\pmd_java.properties
+2025-12-09 02:15:21.581 [EmboldAnalysis1] INFO  [] com.embold.intellij.scan.JavaPmdToolCheckEngine - Running PMD code check
+2025-12-09 02:15:21.581 [EmboldAnalysis1] INFO  [] com.embold.intellij.scan.PMDRunner - dataDir is  present = C:/Users/sebat/AppData/Local/JetBrains/IdeaIC2025.1/tmp/embold/embold_data/Login_TokenPG21Q841ER6HEEW636B06DBX2/pmd/6AOWTP1VYM62LCD3EIITMZN33
+2025-12-09 02:15:21.581 [EmboldAnalysis1] ERROR [] com.embold.intellij.scan.PMDMain - Exception occurr while running pmd: 
+java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106) ~[?:?]
+	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302) ~[?:?]
+	at java.util.Objects.checkIndex(Objects.java:385) ~[?:?]
+	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+	at com.embold.intellij.scan.PMDRunner.getPmdArgs(PMDRunner.java:73) ~[?:?]
+	at com.embold.intellij.scan.PMDRunner.runPmd(PMDRunner.java:39) ~[?:?]
+	at com.embold.intellij.scan.JavaPmdToolCheckEngine.runCodeCheck(JavaPmdToolCheckEngine.java:66) ~[?:?]
+	at com.embold.intellij.scan.JavaPmdToolCheckEngine.getCodeIssues(JavaPmdToolCheckEngine.java:54) ~[?:?]
+	at com.embold.intellij.scan.PMDMain.executor(PMDMain.java:52) ~[?:?]
+	at com.embold.intellij.scan.EmboldAnalysisTask.run(EmboldAnalysisTask.java:88) ~[?:?]
+	at com.embold.intellij.scan.ScanExecutor.lambda$null$1(ScanExecutor.java:169) ~[?:?]
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:229) ~[?:?]
+	at com.intellij.platform.diagnostic.telemetry.helpers.TraceKt.use(trace.kt:43) ~[?:?]
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$2(CoreProgressManager.java:228) ~[?:?]
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$executeProcessUnderProgress$14(CoreProgressManager.java:680) ~[?:?]
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:755) ~[?:?]
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeUnderProgress(CoreProgressManager.java:711) ~[?:?]
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:679) ~[?:?]
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:77) ~[?:?]
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:209) ~[?:?]
+	at com.embold.intellij.scan.ScanExecutor.lambda$runTask$2(ScanExecutor.java:169) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
