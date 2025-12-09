@@ -2,3 +2,25 @@
 2025-12-09 01:23:49.281 [Thread-28] INFO  [scan-status] com.acellere.corona.cmx.messaging.zmq.mt.ServerWorker - ServerWorker [name=scan-status]: Server worker started
 2025-12-09 01:23:49.281 [Thread-25] INFO  [] com.acellere.corona.cmx.messaging.zmq.mt.ZmqListenerMT - Started listener: MT: [scan-status@tcp://localhost:65013]
 2025-12-09 01:23:52.946 [Thread-25] INFO  [] com.acellere.corona.cmx.messaging.zmq.ZmqRequestor - Connected to: [scan-reqt-plugin@tcp://localhost:60829]
+2025-12-09 01:31:58.008 [AWT-EventQueue-0] INFO  [] com.acellere.corona.cmx.messaging.zmq.ZmqRequestor - Disposed: [scan-reqt-plugin@tcp://localhost:60829]
+2025-12-09 01:31:58.011 [AWT-EventQueue-0] INFO  [] com.acellere.corona.cmx.messaging.zmq.mt.ZmqListenerMT - Stopping listener: MT: [scan-status@tcp://localhost:65013]
+2025-12-09 01:31:58.729 [Thread-28] INFO  [scan-status] com.acellere.corona.cmx.messaging.zmq.mt.ServerWorker - ServerWorker [name=scan-status]: Server worker Exiting
+2025-12-09 01:31:58.730 [Thread-28] INFO  [scan-status] com.acellere.corona.cmx.messaging.zmq.mt.ServerWorker - ServerWorker [name=scan-status]: Server worker Finished
+2025-12-09 01:31:58.732 [AWT-EventQueue-0] INFO  [] com.acellere.corona.cmx.messaging.zmq.mt.ZmqListenerMT - Destroying context: MT: [scan-status@tcp://localhost:65013]
+2025-12-09 01:31:58.736 [Thread-27] INFO  [] com.acellere.corona.cmx.messaging.zmq.mt.ZmqProxy - ZmqProxy [scan-status]: Finished proxy
+2025-12-09 01:31:58.742 [AWT-EventQueue-0] INFO  [] com.acellere.corona.cmx.messaging.zmq.mt.ZmqListenerMT - Stopped listener: MT: [scan-status@tcp://localhost:65013]
+2025-12-09 01:32:00.606 [Thread-101] INFO  [] com.acellere.corona.cmx.messaging.zmq.mt.ZmqProxy - ZmqProxy [scan-status]: Starting proxy
+2025-12-09 01:32:00.606 [Thread-99] INFO  [] com.acellere.corona.cmx.messaging.zmq.mt.ZmqListenerMT - Started listener: MT: [scan-status@tcp://localhost:52451]
+2025-12-09 01:32:00.609 [Thread-102] INFO  [scan-status] com.acellere.corona.cmx.messaging.zmq.mt.ServerWorker - ServerWorker [name=scan-status]: Server worker started
+2025-12-09 01:32:03.040 [Thread-99] INFO  [] com.acellere.corona.cmx.messaging.zmq.ZmqRequestor - Connected to: [scan-reqt-plugin@tcp://localhost:59238]
+2025-12-09 02:03:21.060 [AWT-EventQueue-0] INFO  [] com.acellere.corona.cmx.messaging.zmq.ZmqRequestor - Disposed: [scan-reqt-plugin@tcp://localhost:59238]
+2025-12-09 02:03:21.064 [AWT-EventQueue-0] INFO  [] com.acellere.corona.cmx.messaging.zmq.mt.ZmqListenerMT - Stopping listener: MT: [scan-status@tcp://localhost:52451]
+2025-12-09 02:03:21.143 [Thread-102] INFO  [scan-status] com.acellere.corona.cmx.messaging.zmq.mt.ServerWorker - ServerWorker [name=scan-status]: Server worker Exiting
+2025-12-09 02:03:21.143 [Thread-102] INFO  [scan-status] com.acellere.corona.cmx.messaging.zmq.mt.ServerWorker - ServerWorker [name=scan-status]: Server worker Finished
+2025-12-09 02:03:21.143 [AWT-EventQueue-0] INFO  [] com.acellere.corona.cmx.messaging.zmq.mt.ZmqListenerMT - Destroying context: MT: [scan-status@tcp://localhost:52451]
+2025-12-09 02:03:21.143 [Thread-101] INFO  [] com.acellere.corona.cmx.messaging.zmq.mt.ZmqProxy - ZmqProxy [scan-status]: Finished proxy
+2025-12-09 02:03:21.146 [AWT-EventQueue-0] INFO  [] com.acellere.corona.cmx.messaging.zmq.mt.ZmqListenerMT - Stopped listener: MT: [scan-status@tcp://localhost:52451]
+2025-12-09 02:03:22.840 [Thread-129] INFO  [] com.acellere.corona.cmx.messaging.zmq.mt.ZmqProxy - ZmqProxy [scan-status]: Starting proxy
+2025-12-09 02:03:22.840 [Thread-127] INFO  [] com.acellere.corona.cmx.messaging.zmq.mt.ZmqListenerMT - Started listener: MT: [scan-status@tcp://localhost:54803]
+2025-12-09 02:03:22.842 [Thread-130] INFO  [scan-status] com.acellere.corona.cmx.messaging.zmq.mt.ServerWorker - ServerWorker [name=scan-status]: Server worker started
+2025-12-09 02:03:24.982 [Thread-127] INFO  [] com.acellere.corona.cmx.messaging.zmq.ZmqRequestor - Connected to: [scan-reqt-plugin@tcp://localhost:58337]
