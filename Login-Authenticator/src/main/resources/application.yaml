@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: Login-Authenticator
+  #conexion de base de datos
+  datasource:
+    url: jdbc:mysql://localhost:3306/login_auth
+    username: root
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  #actualizacionde los datos automaticos
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  port: 8081
